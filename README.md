@@ -128,14 +128,14 @@ aquaterron-app/
 
 ## 📧 Контакты
 
-- **GitHub Issues:** [Создать баг-репорт или предложение](https://github.com/YOUR-USERNAME/aquaterron-app/issues)
-- **Discussions:** [Обсуждения и вопросы](https://github.com/YOUR-USERNAME/aquaterron-app/discussions)
+- **GitHub Issues:** [Создать баг-репорт или предложение](https://github.com/AquaTerraPro/aquaterron-app/issues)
+- **Discussions:** [Обсуждения и вопросы](https://github.com/AquaTerraPro/aquaterron-app/discussions)
 
 ---
 
 <div align="center">
   
-**[⭐ Поставьте звезду, если проект понравился!](https://github.com/YOUR-USERNAME/aquaterron-app)**
+**[⭐ Поставьте звезду, если проект понравился!](https://github.com/AquaTerraPro/aquaterron-app)**
 
 Сделано с ❤️ для сообщества аквариумистов
 
@@ -167,7 +167,7 @@ git commit -m "🐠 Initial commit: Aquaterron v2.0 - Full-featured aquarium man
 - 🎨 Modern dark theme with gradients"
 
 # Подключение к GitHub репозиторию
-git remote add origin https://github.com/YOUR-USERNAME/aquaterron-app.git
+git remote add origin https://github.com/AquaTerraPro/aquaterron-app.git
 
 # Отправка кода
 git push -u origin main
@@ -192,4 +192,4 @@ npm run deploy
 ```
 
 После успешного деплоя приложение будет доступно по адресу:
-`https://YOUR-USERNAME.github.io/aquaterron-app/`
+`https://AquaTerraPro.github.io/aquaterron-app/`
