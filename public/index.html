@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐠</text></svg>" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="🐠 Акватеррон - Полнофункциональное приложение для управления аквариумами и террариумами" />
+  
+  <title>🐠 Акватеррон - Управление биосистемами</title>
+  
+  <!-- Open Graph метатеги -->
+  <meta property="og:title" content="🐠 Акватеррон - Управление биосистемами" />
+  <meta property="og:description" content="Полнофункциональное приложение для аквариумистов и террариумистов" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://AquaTerraPro.github.io/aquaterron-app/preview.png" />
+  
+  <!-- PWA поддержка -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            gray: {
+              900: '#0f172a',
+              800: '#1e293b',
+              700: '#334155',
+              600: '#475569'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="dark">
+  <noscript>Для работы приложения необходимо включить JavaScript.</noscript>
+  <div id="root"></div>
+</body>
+</html>
